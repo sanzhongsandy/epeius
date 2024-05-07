@@ -5,18 +5,27 @@ let proxyIP = '';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
-	'time.is#你可以只放域名 如下',
+	'time.is',
 	'www.visa.com.sg',
-	'skk.moe#也可以放域名带端口 如下',
+	'skk.moe',
 	'www.wto.org:8443',
-	'www.csgo.com:2087#节点名放在井号之后即可',
-	'icook.hk#若不带端口号默认端口为443',
-	'104.17.152.41#IP也可以',
-	//'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
+	'www.csgo.com:2087',
+	'icook.hk',
+	'104.17.152.41',
+	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]',
+	'[2606:4700:3037:e1:a64b:6580:941f:e09]:80',
+	'[2606:4700:3035:d692:2d67:7f9:cf4b:162b]:80',
+	'[2606:4700:3038:0:aa27:d7c9:4240:90e0]:80',
+	'[2606:4700:3035:1249:bf57:9983:fba9:2108]:80',
+	'[2606:4700:3038:0:a2:c0ff:1c7b:9958]:80',
+	'[2606:4700:3035:1249:bfe2:dd:1d08:2554]:80',
+	'[2606:4700:3038:0:f1f0:3da1:2768:ca09]:80',
+	'[2606:4700:3037:0:d5d5:b929:61b7:f322]:80',
+	'[2606:4700:3036::71:65db:29e5]:80',
+	'[2606:4700:3036:d295:9da4:d2ed:ea7b:bc3b]:80',
 ];
 
-let sub = '';// 'trojan.fxxk.dedyn.io' 
+let sub = '';// 'trojan.fxxk.dedyn.io-Bestip' 
 let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let RproxyIP = 'false';
