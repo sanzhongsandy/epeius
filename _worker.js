@@ -28,7 +28,7 @@ let addresses = [
 	'[2606:4700:3036:d295:9da4:d2ed:ea7b:bc3b]:80#IPV6-011',
 ];
 
-let sub = '';// 'trojan.fxxk.dedyn.io-Bestip' 
+let sub = 'trojan.fxxk.dedyn.io';// 'trojan.fxxk.dedyn.io-Bestip' 
 let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let RproxyIP = 'false';
