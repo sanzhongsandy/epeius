@@ -1,9 +1,10 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'auto';
-let proxyIP = 'yx.887141.xyz';
+let proxyIP = 'www.4u2x.com';
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
+	'yx.887141.xyz#Recommend',
 	'time.is#Time',
 	'www.visa.com.sg',
 	'skk.moe',
