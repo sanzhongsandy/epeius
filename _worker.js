@@ -4,7 +4,7 @@ let password = 'auto';
 let proxyIP = 'yx.887141.xyz';
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-	'time.is',
+	'time.is#Time',
 	'www.visa.com.sg',
 	'skk.moe',
 	'yx.887141.xyz#Recommend'
@@ -28,7 +28,7 @@ let addresses = [
 	'[2606:4700:3036:d295:9da4:d2ed:ea7b:bc3b]:80#IPV6-011',
 ];
 
-let sub = 'trojan.fxxk.dedyn.io';// 'trojan.fxxk.dedyn.io-Bestip' 
+let sub = 'https://auto.classelivre.eu.org/CMLiu';// 'trojan.fxxk.dedyn.io-Bestip' 
 let subconverter = 'apiurl.v1.mk';// clash订阅转换后端，目前使用肥羊的订阅转换功能。自带虚假节点信息防泄露
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"; //订阅配置文件
 let RproxyIP = 'false';
