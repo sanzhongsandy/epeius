@@ -7,7 +7,6 @@ let addresses = [
 	'time.is#Time',
 	'www.visa.com.sg',
 	'skk.moe',
-        'skk.moeyx.887141.xyz#Recommend',
 	'www.wto.org:8443',
 	'www.csgo.com:2087',
 	'icook.hk',
